@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo-struts2-filter:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_struts2_filter_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo-struts2-filter" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="standard-1.13" />
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="demo-struts2-filter/web/Web" />
+    </root>
+  </artifact>
+</component>
