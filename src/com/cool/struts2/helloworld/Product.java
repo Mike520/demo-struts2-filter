@@ -1,5 +1,8 @@
 package com.cool.struts2.helloworld;
 
+import java.util.Iterator;
+import java.util.List;
+
 /**
  * Created by liwenxiang on 2016/4/6.
  */
@@ -57,4 +60,13 @@ public class Product {
                 ", productPrice='" + productPrice + '\'' +
                 '}';
     }
+
+    public static void main(String[] args) {
+        System.out.println("Product.main");
+        System.out.println("args = [" + args + "]");
+        Product product = new Product("12", "mouse", "click", 12.2);
+        System.out.println("product = " + product.toString());
+    }
+
+
 }
